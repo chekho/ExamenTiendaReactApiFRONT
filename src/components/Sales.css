@@ -1,0 +1,33 @@
+.sale-card {
+  text-decoration: none; /* Elimina la subrayado del texto */
+  color: inherit; /* Usa el color del texto heredado */
+  display: flex; /* Usa flexbox para alinear los elementos */
+  align-items: center; /* Alinea verticalmente */
+  margin-bottom: 20px;
+  border: 1px solid #ddd; /* Borde de la tarjeta */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 10px;
+  transition: transform 0.2s; /* Animación suave */
+}
+
+.sale-card:hover {
+  transform: scale(1.02); /* Escala ligeramente en hover */
+  color: inherit; /* Evita el cambio de color al pasar el mouse */
+}
+
+.sale-image {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+  border-radius: 50%; /* Imagen redonda */
+  object-fit: cover;
+  border-radius: 50%; /* Si quieres que la imagen sea redonda */
+  object-fit: cover; /* Asegura que la imagen se ajuste bien */
+  border: 3px solid black; /* Borde negro */
+}
+
+.sale-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente los textos */
+}
